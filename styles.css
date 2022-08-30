@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --menu-button-hover-bg: rgba(67,89,113,.04);
+    --active-menu-button-bg: rgba(105,108,255,.16) !important;
+    --dashboard-button-hover-bg: background-color: #5f61e6;
+    --dashboard-button-hover-transform: translateY(-1px);
+    --dashboard-button-hover: 0 .125rem .25rem 0 rgba(105,108,255,.4);
+    --search-bar-box-shadow: 0 0 .375rem .25rem rgba(161,172,184,.15);
+    --container-box-shadow: 0 2px 6px 0 rgba(67,89,113,.12);
+    --main-font: 'Public Sans', sans-serif;
+    --main-font-size: 1rem;
+    --dashboard-margin: 12px 26px 88px 26px;
+    --card-info-padding: 24px;
+    --card-gap: 26px;
+    --border-radius: 6px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
