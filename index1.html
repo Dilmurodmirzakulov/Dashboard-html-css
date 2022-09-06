@@ -1,14 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
+
 <body>
-    <nav class="navbar">Navbar </nav>
-    <main class="main-wrapper">Main</main>
+    <aside class="navbar">
+        <div class="inner-navbar">
+            <div class="logo-name">
+                <a href="index1.html">
+                    <span class="logo">
+                        <svg width="25" viewBox="0 0 25 42" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs>
+                                <path
+                                    d="M13.7918663,0.358365126 L3.39788168,7.44174259 C0.566865006,9.69408886 -0.379795268,12.4788597 0.557900856,15.7960551 C0.68998853,16.2305145 1.09562888,17.7872135 3.12357076,19.2293357 C3.8146334,19.7207684 5.32369333,20.3834223 7.65075054,21.2172976 L7.59773219,21.2525164 L2.63468769,24.5493413 C0.445452254,26.3002124 0.0884951797,28.5083815 1.56381646,31.1738486 C2.83770406,32.8170431 5.20850219,33.2640127 7.09180128,32.5391577 C8.347334,32.0559211 11.4559176,30.0011079 16.4175519,26.3747182 C18.0338572,24.4997857 18.6973423,22.4544883 18.4080071,20.2388261 C17.963753,17.5346866 16.1776345,15.5799961 13.0496516,14.3747546 L10.9194936,13.4715819 L18.6192054,7.984237 L13.7918663,0.358365126 Z"
+                                    id="path-1"></path>
+                                <path
+                                    d="M5.47320593,6.00457225 C4.05321814,8.216144 4.36334763,10.0722806 6.40359441,11.5729822 C8.61520715,12.571656 10.0999176,13.2171421 10.8577257,13.5094407 L15.5088241,14.433041 L18.6192054,7.984237 C15.5364148,3.11535317 13.9273018,0.573395879 13.7918663,0.358365126 C13.5790555,0.511491653 10.8061687,2.3935607 5.47320593,6.00457225 Z"
+                                    id="path-3"></path>
+                                <path
+                                    d="M7.50063644,21.2294429 L12.3234468,23.3159332 C14.1688022,24.7579751 14.397098,26.4880487 13.008334,28.506154 C11.6195701,30.5242593 10.3099883,31.790241 9.07958868,32.3040991 C5.78142938,33.4346997 4.13234973,34 4.13234973,34 C4.13234973,34 2.75489982,33.0538207 2.37032616e-14,31.1614621 C-0.55822714,27.8186216 -0.55822714,26.0572515 -4.05231404e-15,25.8773518 C0.83734071,25.6075023 2.77988457,22.8248993 3.3049379,22.52991 C3.65497346,22.3332504 5.05353963,21.8997614 7.50063644,21.2294429 Z"
+                                    id="path-4"></path>
+                                <path
+                                    d="M20.6,7.13333333 L25.6,13.8 C26.2627417,14.6836556 26.0836556,15.9372583 25.2,16.6 C24.8538077,16.8596443 24.4327404,17 24,17 L14,17 C12.8954305,17 12,16.1045695 12,15 C12,14.5672596 12.1403557,14.1461923 12.4,13.8 L17.4,7.13333333 C18.0627417,6.24967773 19.3163444,6.07059163 20.2,6.73333333 C20.3516113,6.84704183 20.4862915,6.981722 20.6,7.13333333 Z"
+                                    id="path-5"></path>
+                            </defs>
+                            <g id="g-app-brand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Brand-Logo" transform="translate(-27.000000, -15.000000)">
+                                    <g id="Icon" transform="translate(27.000000, 15.000000)">
+                                        <g id="Mask" transform="translate(0.000000, 8.000000)">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <use fill="#696cff" xlink:href="#path-1"></use>
+                                            <g id="Path-3" mask="url(#mask-2)">
+                                                <use fill="#696cff" xlink:href="#path-3"></use>
+                                                <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-3"></use>
+                                            </g>
+                                            <g id="Path-4" mask="url(#mask-2)">
+                                                <use fill="#696cff" xlink:href="#path-4"></use>
+                                                <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-4"></use>
+                                            </g>
+                                        </g>
+                                        <g id="Triangle"
+                                            transform="translate(19.000000, 11.000000) rotate(-300.000000) translate(-19.000000, -11.000000) ">
+                                            <use fill="#696cff" xlink:href="#path-5"></use>
+                                            <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-5"></use>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="brand-name">Sneat</span>
+                </a>
+            </div>
+            <div class="main-navs">
+                <div class="nav-btns">
+                    <button class="menu-btn active-button">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-home-circle menu-btn-icon"></i>
+                            <span class="menu-btn-text">Dashboard</span>
+                        </div>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-layout menu-btn-icon"></i>
+                            <span>Layouts</span>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                </div>
+                <h4 class="menu-btn-header">Pages</h4>
+                <div class="nav-btns">
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-dock-top menu-btn-icon"></i>
+                            <span>Account Settings</span>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-lock-open-alt menu-btn-icon"></i>
+                            <span>Authentications</span>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-cube-alt menu-btn-icon"></i>
+                            <span>Misc</span>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                </div>
+                <h4 class="menu-btn-header">Components</h4>
+                <div class="nav-btns">
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-collection menu-btn-icon"></i>
+                            <span>Cards</span>
+                        </div>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-box menu-btn-icon"></i>
+                            <span>User interface</span>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-copy menu-btn-icon"></i>
+                            <span>Extended UI</span>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-crown menu-btn-icon"></i>
+                            <span>Boxicons</span>
+                        </div>
+                    </button>
+                </div>
+                <h4 class="menu-btn-header">Forms & Tables</h4>
+                <div class="nav-btns">
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-detail menu-btn-icon"></i>
+                            <span>Form Elements</span>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-detail menu-btn-icon"></i>
+                            <span>Form Layouts</span>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-table menu-btn-icon"></i>
+                            <span>Tables</span>
+                        </div>
+                    </button>
+                </div>
+                <h4 class="menu-btn-header">Misc</h4>
+                <div class="nav-btns">
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-support menu-btn-icon"></i>
+                            <span>Support</span>
+                        </div>
+                    </button>
+                    <button class="menu-btn">
+                        <div class="menu-btn-inner">
+                            <i class="menu-icon tf-icons bx bx-file menu-btn-icon"></i>
+                            <span>Documentation</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <main class="main-wrapper">
+        <div class="inner-main">
+            <div class="search-bar-wrapper">
+                <div class="search-bar">
+                    <div class="search-bar-items">
+                        <i class="bx bx-menu bx-sm" style="cursor: pointer;"></i>
+                        <i class="bx bx-search fs-4 lh-0"></i>
+                        <input type="text" placeholder="Search..." />
+                    </div>
+                    <div class="search-bar-items">
+                        <div href="#" class="search-bar-btns">
+                            <a class="saerch-bar-star" href="#"><i class="bx bx-star"></i>
+                                <div>Star</div>
+                            </a>
+                            <a class="saerch-bar-number" href="#">317</a>
+                        </div>
+                        <div class="search-bar-image-wrapper">
+                            <img src="./search-bar-image.png" class="search-bar-image" alt="profile image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info-content-wrapper">
+                <div class="info-content-inner">
+                    <div class="info-content box1-wrapper">
+                        <div class="info-column info-column-1" id="">
+                            <div class="box-1-left-wrapper">
+                                <div class="box-1-left">
+                                    <h5>Congratulations John! 🎉</h5>
+                                    <p>
+                                        You have done <b>72%</b> more sales today. Check your new
+                                        badge in your profile.
+                                    </p>
+                                    <a href="#">
+                                        <button>View Badges</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-1-right-wrapper">
+                                <div class="box-1-right">
+                                    <img src="./man-with-laptop-light.png" alt="man with laptop" height="140" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2-wrapper">
+                        <div class="box2-inside-wrapper info-content box2-1">
+                            <div class="box-2-column-1-up">
+                                <div class="box-2-column-1-up-img">
+                                    <img src="./chart-success.png" height="38" alt="chart" />
+                                </div>
+                                <div class="box-2-column-1-up-button">
+                                    <button>
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="box-2-column-1-bottom">
+                                <div class="box-2-column-1-bottom-text">Profit</div>
+                                <h3>$12,628</h3>
+                                <div class="small">
+                                    <i class="fa-solid fa-arrow-up"></i>&nbsp;&nbsp;
+                                    +72.80%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box2-inside-wrapper info-content box2-2">
+                            <div class="box-2-column-2">
+                                <div class="box-2-column-2-up">
+                                    <div class="box-2-column-2-up-img">
+                                        <img src="./wallet-info.png" height="38" alt="wallet" />
+                                    </div>
+                                    <div class="box-2-column-2-up-button">
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="box-2-column-2-bottom">
+                                    <div class="box-2-column-2-bottom-text">Sales</div>
+                                    <h3>$4,679</h3>
+                                    <div class="small">
+                                        <i class="fa-solid fa-arrow-up"></i>&nbsp;&nbsp;
+                                        +28.42%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-content box3-wrapper">
+                        <div class="box3-left">
+                            <h5>Total Revenue</h5>
+                            <div class="box3-left-diagram" id="chart"></div>
+                        </div>
+
+                        <div class="box3-right">
+                            <select class="year-toggle">
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2029">2019</option>
+                            </select>
+
+                            <div class="growth-rate" id="chart1"></div>
+                            <div class="company-growth">62% Company Growth</div>
+                            <div class="annual-money-results">
+                                <div class="annual-money-result">
+                                    <span class="dollar-sign"><i class="bx bx-dollar text-primary"></i></span>
+                                    <div class="year-money">
+                                        <small>2022</small>
+                                        <h6>$32.25k</h6>
+                                    </div>
+                                </div>
+                                <div class="annual-money-result">
+                                    <span class="wallet"><i class="bx bx-wallet text-info"></i></span>
+                                    <div class="year-money">
+                                        <small>2021</small>
+                                        <h6>$41.2k</h6>
+                                    </div>
+                                </div>
+                                <div class="year-money"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box4-wrapper">
+                        <div class="box4-wrapper">
+                            <div class="box4-up">
+                                <div class="box4-inside-wrapper-up info-content box4-1">
+                                    <div class="box-2-column-1-up">
+                                        <div class="box-2-column-1-up-img">
+                                            <img src="./paypal.png" height="38" alt="paypal" />
+                                        </div>
+                                        <div class="box-2-column-1-up-button">
+                                            <button>
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="box-2-column-1-bottom">
+                                        <div class="box-2-column-1-bottom-text">Payments</div>
+                                        <h3>$2,456</h3>
+                                        <div class="small">
+                                            <i class="fa-solid fa-arrow-down"></i>&nbsp;&nbsp;
+                                            -14.82%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box4-inside-wrapper-up info-content box4-2">
+                                    <div class="box-2-column-1-up">
+                                        <div class="box-2-column-1-up-img">
+                                            <img src="./cc-primary.png" height="38" alt="cart" />
+                                        </div>
+                                        <div class="box-2-column-1-up-button">
+                                            <button>
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="box-2-column-1-bottom">
+                                        <div class="box-2-column-1-bottom-text">Transactions</div>
+                                        <h3>$14,857</h3>
+                                        <div class="small">
+                                            <i class="fa-solid fa-arrow-up"></i>&nbsp;&nbsp;
+                                            +28.14%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box4-inside-wrapper info-content box4-3">
+                                <div class="box-2-column-1-bottom">
+                                    <h5 class="box-2-column-1-bottom-text">Profile Report</h5>
+                                    <div class="year">YEAR 2021</div>
+                                    <div class="small">
+                                        <i class="fa-solid fa-angle-up"></i>&nbsp;&nbsp;
+                                        68.2%
+                                    </div>
+                                    <h3>$84,686k</h3>
+                                </div>
+                                <div class="box-2-column-1-up">
+                                    <div class="box-2-column-1-up-img" id="chart2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-content-inner last-part">
+                    <div class="info-content stats-box1">
+                        <div class="stats-box1-header">
+                            <div>
+                                <h5>Order Statistics</h5>
+                                <small> 42.82k Total Sales </small>
+                            </div>
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                        <div class="total-orders">
+                            <div>
+                                <h2>8,258</h2>
+                                <span>Total Orders</span>
+                            </div>
+                            <div id="chart5"></div>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="inner-list">
+                                    <div class="list-icon icon1">
+                                        <i class="bx bx-mobile-alt"></i>
+                                    </div>
+                                    <div class="list-title">
+                                        <h6>Electronic</h6>
+                                        <small> Mobile, Earbuds, TV </small>
+                                    </div>
+                                </div>
+                                <small class="order-number">82.5k</small>
+                            </li>
+                            <li>
+                                <div class="inner-list">
+                                    <div class="list-icon icon2">
+                                        <i class="bx bx-closet"></i>
+                                    </div>
+                                    <div class="list-title">
+                                        <h6>Fashion</h6>
+                                        <small> T-shirt, Jeans, Shoes </small>
+                                    </div>
+                                </div>
+                                <small class="order-number">23.8k</small>
+                            </li>
+                            <li>
+                                <div class="inner-list">
+                                    <div class="list-icon icon3">
+                                        <i class="bx bx-home-alt"></i>
+                                    </div>
+                                    <div class="list-title">
+                                        <h6>Decor</h6>
+                                        <small> Fine Art, Dining </small>
+                                    </div>
+                                </div>
+                                <small class="order-number">849k</small>
+                            </li>
+                            <li>
+                                <div class="inner-list">
+                                    <div class="list-icon icon4">
+                                        <i class="bx bx-football"></i>
+                                    </div>
+                                    <div class="list-title">
+                                        <h6>Sports</h6>
+                                        <small> Football, Cricket Kit </small>
+                                    </div>
+                                </div>
+                                <small class="order-number">99</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info-content stats-box2">
+                        <div class="stats-box2-btns">
+                            <button class="active-btn">Income</button>
+                            <button class="in-active">Expenses</button>
+                            <button class="in-active">Profit</button>
+                        </div>
+                        <div class="total-balance">
+                            <img class="" src="wallet-info.png" alt="wallet" />
+                            <div class="list-title">
+                                <small>Total Balance</small>
+                                <div class="balance-rate">
+                                    <h6>$459.10</h6>&nbsp;&nbsp;
+                                    <small class="small">
+                                        <i class="fa-solid fa-angle-up"></i>
+                                        42.9%
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="chart3"></div>
+                        <div class="expences">
+                            <div class="expance-rate" id="chart4"></div>
+                            <div class="list-title">
+                                <p>Expences This Week</p>
+                                <small> $39 less than last week </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-content stats-box3">
+                        <div class="stats-box3-header">
+                            <h5>Transactions</h5>
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                        <ul>
+                            <li class="transaction-list">
+                                <div>
+                                    <img src="./paypal.png" alt="wallet" />
+                                    <div class="list-title">
+                                        <small>Paypal</small>
+                                        <h6>Send money</h6>
+                                    </div>
+                                </div>
+                                <div class="transaction-amount">
+                                    <h6>+82.6</h6>
+                                    <span>USD</span>
+                                </div>
+                            </li>
+                            <li class="transaction-list">
+                                <div>
+                                    <img src="./wallet.png" alt="wallet" />
+                                    <div class="list-title">
+                                        <small>Wallet</small>
+                                        <h6>Mac'D</h6>
+                                    </div>
+                                </div>
+                                <div class="transaction-amount">
+                                    <h6>+270.69</h6>
+                                    <span>USD</span>
+                                </div>
+                            </li>
+                            <li class="transaction-list">
+                                <div>
+                                    <img src="./chart.png" alt="wallet" />
+                                    <div class="list-title">
+                                        <small>Transfer</small>
+                                        <h6>Refund</h6>
+                                    </div>
+                                </div>
+                                <div class="transaction-amount">
+                                    <h6>+637.91</h6>
+                                    <span>USD</span>
+                                </div>
+                            </li>
+                            <li class="transaction-list">
+                                <div>
+                                    <img src="./cc-success.png" alt="wallet" />
+                                    <div class="list-title">
+                                        <small>Credit Card</small>
+                                        <h6>Ordered Food</h6>
+                                    </div>
+                                </div>
+                                <div class="transaction-amount">
+                                    <h6>-838.71</h6>
+                                    <span>USD</span>
+                                </div>
+                            </li>
+                            <li class="transaction-list">
+                                <div>
+                                    <img src="./cc-primary.png" alt="wallet" />
+                                    <div class="list-title">
+                                        <small>Wallet</small>
+                                        <h6>Starbucks</h6>
+                                    </div>
+                                </div>
+                                <div class="transaction-amount">
+                                    <h6>+203.33</h6>
+                                    <span>USD</span>
+                                </div>
+                            </li>
+                            <li class="transaction-list">
+                                <div>
+                                    <img src="./cc-warning.png" alt="wallet" />
+                                    <div class="list-title">
+                                        <small>Mastercard</small>
+                                        <h6>Ordered Food</h6>
+                                    </div>
+                                </div>
+                                <div class="transaction-amount">
+                                    <h6>-92.45</h6>
+                                    <span>USD</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="author">
+                    © 2022 , made with ❤️ by <a href="https://themeselection.com" target="_blank" class="comp-name">ThemeSelection</a>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li>License</li>
+                        <li>More Themes</li>
+                        <li>Documentation</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
